@@ -1,0 +1,60 @@
+DevOps File Extensions – Explained with Examples 🚀
+
+In DevOps, every file tells a story — from source code 💻 to configs ⚙️, environment vars 🌍, and security 🔐.
+Here’s your cheat sheet with examples 👇
+
+⸻
+
+💻 Source Code
+
+Where the app logic lives.
+	•	🐍 .py → app.py → Python automation
+	•	☕ .java → Main.java → Backend service
+	•	🐹 .go → server.go → API service
+	•	⚡ .js → index.js → Node.js app
+	•	🖥️ .sh → deploy.sh → Deployment script
+
+⸻
+
+⚙️ Configuration
+
+Control how infra & apps behave.
+	•	📄 .yaml / .yml → deployment.yaml → Kubernetes pod
+	•	🛠️ .json → terraform.json → IaC configs
+	•	📝 .ini → settings.ini → App settings
+	•	🌐 .conf → nginx.conf → Nginx server config
+	•	☁️ .tf → main.tf → Terraform code
+	•	🐳 Dockerfile → Container build instructions
+
+⸻
+
+🌍 Environment & Properties
+
+Hold variables & runtime configs
+
+	•	.env → Environment variables
+	•	.properties → Java apps (Spring, Tomcat)
+	•	.cfg → General app configs
+
+🔐 Security & Certificates
+	•	.pem → Private key / certificate
+	•	.crt → SSL certificate
+	•	.key → Private key
+	•	.p12 / .pfx → PKCS#12 certificate bundles
+
+⸻
+
+📊 Logs & Monitoring
+	•	.log → Application / system logs
+	•	.out → Console output dumps
+
+⸻
+
+📄 Docs & Git
+	•	.md → Documentation (README.md)
+	•	.gitignore → Files Git should ignore
+	•	.gitattributes → Repo behavior configs
+
+⸻
+
+💡 Pro Tip: Never commit .env, .pem, .key, or other sensitive files to GitHub. Use Vaults / Secrets Managers 🔒
