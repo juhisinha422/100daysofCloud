@@ -1,0 +1,96 @@
+100 Days of DevOps Quiz — Day 2 (2/100) | September 23
+
+
+📝 Multiple-Choice Questions
+
+Q1. In Maven, which statement is correct?
+a) Group ID identifies the specific module.
+b) Artifact ID identifies the organization.
+c) Group ID = Organization, Artifact ID = Project/Module.
+d) Both are random values.
+
+⸻
+
+Q2. What is latency?
+a) Amount of data stored in DB.
+b) Time delay between request and response.
+c) Speed of CPU.
+d) Number of users logged in.
+
+⸻
+
+Q3. In Linux, if a script executes successfully, what exit value is returned?
+a) 1
+b) 0
+c) -1
+d) 255
+
+⸻
+
+Q4. In Linux, if $? = 0, it means:
+a) Command failed.
+b) Command succeeded.
+c) Command not found.
+d) System reboot required.
+
+⸻
+
+Q5. Which command checks the status of a running service in Linux?
+a) service –run
+b) systemctl status 
+c) checkstatus 
+d) system status 
+
+⸻
+
+Q6. Which statement is true about RDBMS, MySQL, and MongoDB?
+a) RDBMS = Concept, MySQL = RDBMS, MongoDB = NoSQL.
+b) All three are RDBMS.
+c) MySQL is NoSQL, MongoDB is RDBMS.
+d) MongoDB is faster because it is SQL.
+
+⸻
+
+Q7. In AWS, what’s the difference between EC2 and AMI?
+a) EC2 = Template, AMI = Server.
+b) EC2 = Virtual Server, AMI = Template (image).
+c) Both are the same.
+d) EC2 = Storage, AMI = DB.
+
+⸻
+
+Q8. How many types of users exist in Linux?
+a) Only root user.
+b) Root, System, Normal users.
+c) Root and Developers.
+d) Only Normal users.
+
+⸻
+
+Q9. Difference between sudo su and sudo su -?
+a) Both are exactly the same.
+b) sudo su keeps current environment, sudo su - loads root environment.
+c) sudo su creates a new user, sudo su - deletes one.
+d) Both disable root login.
+
+⸻
+
+Q10. (Interview Troubleshoot) A web application is not responding on port 8080. Which command is MOST useful to start troubleshooting?
+a) ps -ef | grep 8080
+b) netstat -tulnp | grep 8080
+c) top
+d) uname -a
+
+⸻
+
+✅ Answers
+	1.	c) Group ID = Organization, Artifact ID = Project/Module
+	2.	b) Time delay between request and response
+	3.	b) 0
+	4.	b) Command succeeded
+	5.	b) systemctl status 
+	6.	a) RDBMS = Concept, MySQL = RDBMS, MongoDB = NoSQL
+	7.	b) EC2 = Virtual Server, AMI = Template (image)
+	8.	b) Root, System, Normal users
+	9.	b) sudo su keeps current environment, sudo su - loads root environment
+	10.	b) netstat -tulnp | grep 8080
