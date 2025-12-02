@@ -1,0 +1,103 @@
+100 Days of DevOps Quiz — Day 4 (100/4)
+
+Q1 🐚 How do we start a shell script file and what do we call it?
+
+A) With #!/bin/bash → Script file (.sh)
+B) With #start bash → Program
+C) With begin → Task file
+D) With run → Command
+
+⸻
+
+Q2 🔗 How can you call one script from another?
+
+A) Using ./script.sh (runs in new shell)
+B) Using source script.sh (runs in same shell)
+C) Both A & B
+D) Copy-paste the script
+
+⸻
+
+Q3 ⚡ Can we run a script as a background process?
+
+A) No, only foreground
+B) Yes, using & at the end
+C) Yes, using &&
+D) Yes, only with bg
+
+⸻
+
+Q4 🔄 How can we recall (bring back) a background process?
+
+A) jobs + fg %job_number
+B) Restart the system
+C) ls -bg
+D) Kill and rerun
+
+⸻
+
+Q5 🗑️ How do you delete files older than 14 days in a folder?
+
+A) rm -f *14days
+B) find ./ -name "*.log" -mtime +14 -exec rm -f {} \;
+C) delete *14.log
+D) purge 14d
+
+⸻
+
+Q6 🔁 What is a Loop in shell scripting used for?
+
+A) To restart the server
+B) To execute a set of commands repeatedly
+C) To delete files only
+D) To update environment variables
+
+⸻
+
+Q7 ⚙️ What is an Environment Variable, and how to make it permanent even after restart?
+
+A) Temporary value stored in RAM only
+B) Key-value pairs available to processes; permanent if written in ~/.bashrc, ~/.profile, or /etc/profile
+C) Script header value
+D) IP address setting
+
+⸻
+
+Q8 📜 Which way passes arguments into a script?
+
+A) echo
+B) read
+C) $1, $2, $3 ...
+D) export
+
+⸻
+
+Q9 🚀 How do you execute the script dynamically with its name?
+
+A) bash $0
+B) ./$0
+C) sh scriptname.sh
+D) run dynamic
+
+⸻
+
+Q10 🆔 Which command gives the PID of the last background process?
+
+A) $!
+B) $$
+C) $?
+D) $#
+
+⸻
+
+✅ Answers:
+	1.	A
+	2.	C
+	3.	B
+	4.	A
+	5.	B
+	6.	B
+	7.	B
+	8.	C
+	9.	B
+	10.	A
