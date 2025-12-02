@@ -1,0 +1,108 @@
+100 Days of DevOps Challenge — Day 3 (100/3)
+
+Test your knowledge today! 🎯 Answer these MCQs 👇
+
+⸻
+
+1️⃣ 💻 What is a computer?
+
+A) A device that only plays games
+B) A machine that processes data into information
+C) A hardware box with no software
+D) A programming tool
+
+⸻
+
+2️⃣ 🌐 What is server and client?
+
+A) Server provides, client requests
+B) Server requests, client provides
+C) Both are same
+D) Neither provides nor requests
+
+⸻
+
+3️⃣ 🔑 What is SSH?
+
+A) Super Secure Hosting
+B) Secure Shell
+C) System Security Host
+D) Shell Secure Handler
+
+⸻
+
+4️⃣ 📂 What is an absolute path?
+
+A) Path starting from / root
+B) Path from current directory
+C) Path without slashes
+D) Path inside temporary files
+
+⸻
+
+5️⃣ 🗂️ What does CRUD stand for?
+
+A) Create, Read, Update, Delete
+B) Copy, Run, Undo, Drop
+C) Create, Run, Use, Debug
+D) None of these
+
+⸻
+
+6️⃣ 🔒 Where are passwords stored securely in Linux?
+
+A) /etc/passwd
+B) /etc/shadow
+C) /root/passwords.txt
+D) /bin/pass
+
+⸻
+
+7️⃣ 📝 What is an inode in Linux?
+
+A) File content storage
+B) Data structure storing file metadata
+C) Directory name
+D) Username list
+
+⸻
+
+8️⃣ 👥 What are sibling directories?
+
+A) Directories inside each other
+B) Directories under the same parent
+C) Directories linked with hard links
+D) Temporary system folders
+
+⸻
+
+9️⃣ 🔗 What is a hard link?
+
+A) A shortcut to a file
+B) A separate file copy
+C) A reference to the same inode
+D) A symbolic alias
+
+⸻
+
+🔟 🐧 Linux is…
+
+A) A kernel, not just an OS
+B) A programming language
+C) A cloud platform
+D) Only a desktop software
+
+⸻
+
+✅ Answers:
+
+1 – B
+2 – A
+3 – B
+4 – A
+5 – A
+6 – B
+7 – B
+8 – B
+9 – C
+10 – A
