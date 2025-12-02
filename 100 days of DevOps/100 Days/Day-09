@@ -1,0 +1,110 @@
+100 Days of DevOps Quiz — Day 9 (9/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+Let’s start the journey! 🚀
+Try these 10 multiple-choice questions 👇 (don’t scroll too fast 😉).
+
+🚀 Day 9/100 – Ansible Keys & Authentication 🔐 (Round 4 Tough Set)
+
+Topic: Real-time SSH & Vault Key Troubleshooting
+
+⸻
+
+🔹 1️⃣ You see this error:
+Failed to connect to the host via ssh: Permission denied (publickey)
+What’s the most likely reason?
+A) Wrong Ansible version
+B) SSH key not copied to managed node
+C) Inventory path error
+D) Syntax issue in playbook
+
+⸻
+
+🔹 2️⃣ You already have passwordless SSH setup, but Ansible still asks for a password. Why?
+A) ansible_user variable missing
+B) ansible_ssh_private_key_file misconfigured
+C) Wrong remote user in playbook
+D) All of the above
+
+⸻
+
+🔹 3️⃣ Which command generates SSH key pairs for Ansible user?
+A) ansible-keygen
+B) ssh-keygen
+C) ansible-vault create key
+D) ansible-inventory --gen-key
+
+⸻
+
+🔹 4️⃣ What’s the role of Vault ID in Ansible?
+A) Identifies playbook version
+B) Links vault secrets to a specific key
+C) Used for host authentication
+D) Encrypts YAML structure
+
+⸻
+
+🔹 5️⃣ You get this error:
+ERROR! Attempting to decrypt but no vault secrets found.
+How do you fix it?
+A) Delete vault file
+B) Use --ask-vault-pass or --vault-password-file
+C) Use --become
+D) Add vars_files in playbook
+
+⸻
+
+🔹 6️⃣ Which file commonly stores SSH identity configuration by default?
+A) /etc/ansible/ssh_key
+B) ~/.ssh/config
+C) /etc/ansible/ansible.cfg
+D) ~/.ansible/keyfile
+
+⸻
+
+🔹 7️⃣ Your playbook fails to SSH even after keys are setup. How do you debug?
+A) ansible-playbook -vvv
+B) ansible-config dump
+C) ansible-inventory --list
+D) ansible-vault view
+
+⸻
+
+🔹 8️⃣ You want to bypass vault encryption temporarily. What option helps?
+A) --ignore-vault
+B) --skip-vault
+C) --ask-vault-pass
+D) No option exists (must decrypt first)
+
+⸻
+
+🔹 9️⃣ How should SSH private keys be stored in production pipelines?
+A) Inside Git repo
+B) Encrypted using Vault or secret manager
+C) Hard-coded in playbooks
+D) In /tmp for temporary access
+
+⸻
+
+🔹 🔟 You suspect a key mismatch on a managed node. How to verify?
+A) ssh-keyscan <host>
+B) ansible --check-key <host>
+C) ansible-keyverify
+D) cat ~/.ssh/id_rsa
+
+⸻
+
+✅ Answers (at the end as requested)
+
+1️⃣ B – SSH key not copied
+2️⃣ D – All of the above
+3️⃣ B – ssh-keygen
+4️⃣ B – Links secrets to specific key
+5️⃣ B – Use vault password file
+6️⃣ B – ~/.ssh/config
+7️⃣ A – ansible-playbook -vvv
+8️⃣ D – Must decrypt first
+9️⃣ B – Use Vault or secret manager
+🔟 A – ssh-keyscan <host>
