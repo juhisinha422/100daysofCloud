@@ -1,0 +1,95 @@
+100 Days of DevOps Quiz — Shell Script (Day 5/100)
+
+1️⃣ Which symbol is used to redirect output to a file in shell scripting? 📝
+
+A) |
+B) >
+C) >>
+D) <
+
+⸻
+
+2️⃣ In shell scripts, $0 represents what? 🖥️
+
+A) Exit status
+B) Script name
+C) Current process ID
+D) First argument
+
+⸻
+
+3️⃣ Which command is used to make a shell script executable? ⚡
+
+A) chmod
+B) chown
+C) execute
+D) run
+
+⸻
+
+4️⃣ What does #!/bin/bash at the top of a script specify? 🔗
+
+A) Script author
+B) Default shell interpreter
+C) Comment line
+D) Script version
+
+⸻
+
+5️⃣ Which loop is best when you know the number of iterations in advance? 🔄
+
+A) while
+B) for
+C) until
+D) case
+
+⸻
+
+6️⃣ In shell scripting, which command is used to take input from user? ⌨️
+
+A) scan
+B) input
+C) read
+D) get
+
+⸻
+
+7️⃣ What is the correct syntax to define a function in shell? 🛠️
+
+A) func() { commands }
+B) function = commands
+C) def func { commands }
+D) funct { commands }
+
+⸻
+
+8️⃣ Which special variable shows the number of arguments passed to a script? 📦
+
+A) $0
+B) $@
+C) $*
+D) $#
+
+⸻
+
+9️⃣ Which command is used to check file existence in a shell script? 📂
+
+A) if -e file
+B) test -f file
+C) check file
+D) exists file
+
+⸻
+
+🔟 In shell scripts, exit 0 usually means what? ✅
+
+A) Error occurred
+B) Successful execution
+C) Permission denied
+D) Script not found
+
+⸻
+
+✅ Answers:
+
+1-B, 2-B, 3-A, 4-B, 5-B, 6-C, 7-A, 8-D, 9-B, 10-B
