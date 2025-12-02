@@ -1,0 +1,55 @@
+100 Days of DevOps Quiz — Day 13 (13/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+
+🌍 Terraform Important Modules — School Example 🏫
+
+Imagine you’re setting up Sri Satya Sai Vidya Vihar International School on AWS Cloud using Terraform!
+
+Here’s how each Terraform module helps
+
+🔹 1. VPC Module 
+🧠 Creates the school network.
+🏫 Like separating school blocks — Classes, Labs, Staff Rooms.
+
+🔹 2. EC2 Module 
+💻 Launches servers for school websites or portals.
+💡 Like computer lab systems running applications.
+
+🔹 3. S3 Module
+📦 Stores photos, reports, assignments.
+🗂️ Like the record room — safe and organized storage.
+
+🔹 4. RDS Module
+🗃️ Stores marks, fees, attendance in a database.
+📚 Like the Student Information System (SIS).
+
+🔹 5. IAM Module
+🔐 Manages access for teachers, admins, and staff.
+🪪 Like giving ID cards with permissions.
+
+🔹 6. Security Group Module
+🚪 Controls who can enter servers.
+👮♀️ Like school gates and guards.
+
+🔹 7. Route53 Module
+🌐 Creates a domain like www.abcschool.edu.
+📍 Like putting your school name on Google Maps.
+
+🔹 8. CloudWatch Module
+📊 Monitors performance and sends alerts.
+🎥 Like CCTV for school infrastructure.
+
+⸻
+
+🆕 Additional Core Modules
+
+🔹 9. State Management (Backend)
+🗄️ Stores Terraform state remotely (e.g., in S3).
+🏢 Like the principal’s record book, keeping track of all school changes safely.
+
+🔹 10. Local Module
+🧮 Used for temporary data or computed values.
+🧾 Like local notes a teacher keeps for daily attendance — not official but helpful.
