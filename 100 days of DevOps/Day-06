@@ -1,0 +1,78 @@
+100 Days of DevOps Quiz — Day 6/100
+
+Topic: XML, YAML & JSON
+
+Q1️⃣. Which of the following is a tag-based data format?
+A) YAML
+B) JSON
+C) XML
+D) CSV
+
+Q2️⃣. YAML mainly depends on __________ for structure.
+A) Tags
+B) Indentation
+C) Curly Braces
+D) Commas
+
+Q3️⃣. JSON data is mostly used for ________.
+A) Machine learning training
+B) API communication between apps
+C) Database indexing
+D) Operating systems only
+
+Q4️⃣. Which format is the most human-readable and cleanest to write?
+A) XML
+B) JSON
+C) YAML
+D) Binary
+
+Q5️⃣. In JSON, the data is stored as __________.
+A) Key-Value pairs
+B) XML Tags
+C) Plain Text
+D) Tables
+
+Q6️⃣. Which format is the most verbose (takes more space)?
+A) YAML
+B) JSON
+C) XML
+D) CSV
+
+Q7️⃣. Which of these is mostly used in Kubernetes, Ansible, and Docker configs?
+A) XML
+B) JSON
+C) YAML
+D) INI
+
+Q8️⃣. In JSON, arrays are written inside ________.
+A) < >
+B) [ ]
+C) { }
+D) ( )
+
+Q9️⃣. Which of the following supports attributes inside tags?
+A) JSON
+B) XML
+C) YAML
+D) CSV
+
+Q🔟. YAML file extension is usually ________.
+A) .xml
+B) .json
+C) .yml / .yaml
+D) .data
+
+⸻
+
+✅ Answers:
+
+1 → C
+2 → B
+3 → B
+4 → C
+5 → A
+6 → C
+7 → C
+8 → B
+9 → B
+10 → C
