@@ -1,0 +1,45 @@
+100 Days of DevOps Quiz — Day 12 (12/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+
+1️⃣ Protocol
+📡 A set of rules for data communication.
+Analogy: Like grammar rules that help two people speak the same language.
+
+2️⃣ API Gateway
+🚪 Manages and controls requests going to backend services.
+Analogy: Like a receptionist who routes your request to the right department.
+
+3️⃣ Cache
+⚡ Stores temporary data for quick access.
+Analogy: Like keeping your most-used items on the desk instead of the cupboard.
+
+4️⃣ Webhook
+🔔 Sends real-time updates automatically.
+Analogy: Like getting a text alert when your parcel is delivered.
+
+5️⃣ Cluster
+🖥️ A group of servers working together.
+Analogy: Like a team of chefs in one kitchen cooking together.
+
+6️⃣ Orchestration
+🎶 Automated coordination of services and containers.
+Analogy: Like a music conductor keeping all instruments in sync.
+
+7️⃣ CI/CD (Continuous Integration / Continuous Deployment)
+⚙️ Automating code testing and deployment.
+Analogy: Like an assembly line that builds, tests, and delivers products nonstop.
+
+8️⃣ Monitoring
+👀 Observing system health and performance.
+Analogy: Like a heartbeat monitor showing how the system feels.
+
+9️⃣ Alerting
+🚨 Notifications when something goes wrong.
+Analogy: Like a fire alarm that rings before damage happens.
+
+🔟 Scalability
+📈 Ability to handle more work by adding resources.
+Analogy: Like expanding a restaurant by adding more tables when customers increase.
