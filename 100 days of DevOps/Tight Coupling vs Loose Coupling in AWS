@@ -1,0 +1,19 @@
+Tight Coupling vs Loose Coupling in AWS (Child–Parent Example)
+
+⚡ Tight Coupling
+👶 A child depends on the parent for every action — if the parent isn’t there, the child is stuck.
+👉 In AWS, this is like running App + Database inside one EC2 instance. If EC2 fails, both crash.
+
+⚡ Loose Coupling
+🧑🎓 A parent guides, but the child can act independently — even if the parent is away, the child still manages.
+👉 In AWS, this is like separating services (App on EC2/ECS/Lambda, DB on RDS, storage on S3, communication via SQS/SNS).
+
+📌 Definition
+	•	🔗 Tight Coupling = Components are strongly dependent on each other.
+	•	🔓 Loose Coupling = Components interact through minimal, well-defined connections, so one can change or fail without breaking the other.
+
+🌍 Real-Time Example
+	•	🚀 Loose Coupling: Amazon’s order processing → payment, inventory, and shipping services run independently but talk through queues/events.
+	•	🏗️ Tight Coupling: Monolithic apps → billing, shipping, and inventory live in one block. If one fails, the whole system stops.
+
+💡 Loose coupling = reliability, scalability
