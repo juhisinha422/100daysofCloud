@@ -1,0 +1,108 @@
+100 Days of DevOps Quiz — Day 1 (1/100)
+
+Let’s start the journey! 🚀
+Try these 10 multiple-choice questions 👇 (don’t scroll too fast 😉).
+⸻
+
+1. What is an ISP?
+
+A) Internet Speed Provider
+B) Internet Service Provider
+C) Internal Security Protocol
+D) Information Sharing Platform
+
+⸻
+
+2. What is a forward proxy?
+
+A) Hides the client’s identity
+B) Hides the server’s identity
+C) Works only with databases
+D) Same as reverse proxy
+
+⸻
+
+3. What is a reverse proxy mainly used for?
+
+A) Load balancing & security
+B) Only for databases
+C) File storage
+D) Assigning IPs
+
+⸻
+
+4. What is static vs dynamic content?
+
+A) Static = fixed, Dynamic = runtime generated
+B) Static = database data, Dynamic = cache data
+C) Static = always changes, Dynamic = never changes
+D) Static = websites, Dynamic = mobile apps
+
+⸻
+
+5. What is synchronous communication?
+
+A) Tasks wait for each other
+B) Tasks run independently
+C) Tasks run randomly
+D) Tasks only on multiple servers
+
+⸻
+
+6. What is asynchronous communication?
+
+A) Each task waits for others
+B) Tasks run without waiting
+C) Only one task can run at a time
+D) Requires a proxy
+
+⸻
+
+7. What are types of APIs?
+
+A) REST, SOAP, GraphQL
+B) GET, POST, DELETE
+C) JSON, XML, YAML
+D) Static, Dynamic
+
+⸻
+
+8. In DevOps, what is a freestyle job?
+
+A) Jenkins job with custom build steps
+B) A coding language
+C) A type of OS
+D) Free trial software
+
+⸻
+
+9. What does Git provide?
+
+A) Version control for source code
+B) File compression
+C) Cloud hosting
+D) Email service
+
+⸻
+
+10. Authentication vs Authorization?
+
+A) Authentication = who you are, Authorization = what you can access
+B) Authentication = permissions, Authorization = password
+C) Authentication = firewall, Authorization = VPN
+D) Both are same
+
+⸻
+
+✅ Answers — Check Your Score Below 👇
+	1.	B — ISP = Internet Service Provider
+	2.	A — Forward proxy hides client
+	3.	A — Reverse proxy = load balancing & security
+	4.	A — Static = fixed, Dynamic = runtime
+	5.	A — Synchronous = wait (phone call)
+	6.	B — Asynchronous = don’t wait (email)
+	7.	A — REST, SOAP, GraphQL
+	8.	A — Jenkins freestyle = custom build job
+	9.	A — Git = version control system
+	10.	A — AuthN = identity, AuthZ = access
+  
