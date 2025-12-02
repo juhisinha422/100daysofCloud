@@ -1,0 +1,43 @@
+100 Days of DevOps  — Day 14 (14/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+
+⭐ Tight Coupling vs Loose Coupling (Simple Analogy)
+
+“Tight coupling is like French fries stuck together 🍟— one breaks, everything breaks.
+Loose coupling is like separate fries — independent, flexible, easy to manage!
+Keep your code like good fries: loosely coupled 😎✨
+
+🔒 Tight Coupling
+
+Two components depend on each other too much.
+If one breaks, the other breaks too.
+
+🍟 Analogy:
+Imagine French fries stuck together while frying.
+If you pull one fry, the other also comes —
+they cannot work independently.
+
+👉 In software, tightly-coupled code is hard to change, hard to test, and easy to break.
+
+⸻
+
+🔓 Loose Coupling
+
+Two components work independently and only connect when needed.
+
+🍟 Analogy:
+Think of separate French fries in a packet.
+Each fry is independent.
+If one fry breaks, the others are fine.
+
+👉 In software, loosely-coupled code is flexible, easy to test, and easy to modify.
+
+⸻
+
+💡 Quick Summary
+
+🔒 Tight Coupling = Fries stuck together → Hard to separate
+🔓 Loose Coupling = Each fry separate → Easy to manage
