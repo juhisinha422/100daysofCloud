@@ -1,0 +1,22 @@
+Understanding RDBMS vs MySQL vs MongoDB with a Movie Ticket Example
+
+Think of a theatre while booking tickets:
+	•	In an RDBMS, if you book a VIP seat, that seat is reserved only for you.
+👉 If you don’t show up, the seat stays empty — just like RDBMS reserves column space even if data is missing.
+	•	In MySQL, it’s like a balcony booking system.
+👉 The system fills the balcony completely based on the number of people who come. No seats are wasted, just like MySQL uses space efficiently without leaving empty gaps.
+	•	In MongoDB, it’s like an open theatre ground where people can sit freely in different arrangements.
+👉 There’s no fixed row/column — flexible and perfect when the crowd (data) is massive and unstructured.
+
+💡 Key Point:
+	•	RDBMS → Strict reservation, even unused space is blocked.
+	•	MySQL → Optimized, fills data efficiently without wastage.
+	•	MongoDB → Flexible, handles huge unstructured data with ease.
+
+*****************
+
+
+🎭 Databases in a Movie Theatre
+	•	RDBMS → VIP seat reserved, but if you don’t come, the seat stays empty (strict schema).
+	•	MySQL → Balcony fills up fully, no wasted seats (efficient storage).
+	•	MongoDB → Open theatre ground, people sit freely (flexible for huge unstructured data).
