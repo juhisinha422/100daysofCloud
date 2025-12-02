@@ -1,0 +1,114 @@
+100 Days of DevOps Quiz — Day 10 (10/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+💡 Let’s test your Terraform knowledge!
+Comment your score below 👇
+
+
+
+🔹1️⃣ What is Terraform primarily used for?
+
+A. Configuration Management
+B. Infrastructure Provisioning
+C. Continuous Deployment
+D. Monitoring
+
+⸻
+
+🔹2️⃣ Which language does Terraform use to write configuration files?
+
+A. YAML
+B. JSON
+C. HCL
+D. XML
+
+⸻
+
+🔹3️⃣ What command initializes a Terraform working directory?
+
+A. terraform start
+B. terraform init
+C. terraform plan
+D. terraform apply
+
+⸻
+
+🔹4️⃣ Where does Terraform store information about your infrastructure’s current state?
+
+A. terraform.json
+B. main.tf
+C. terraform.tfstate
+D. variables.tf
+
+⸻
+
+🔹5️⃣ Which command shows you the execution plan before applying changes?
+
+A. terraform show
+B. terraform validate
+C. terraform plan
+D. terraform output
+
+⸻
+
+🔹6️⃣ How can you destroy all Terraform-managed resources?
+
+A. terraform delete
+B. terraform destroy
+C. terraform clean
+D. terraform down
+
+⸻
+
+🔹7️⃣ What does the .terraform.lock.hcl file do?
+
+A. Locks provider versions
+B. Stores backend configuration
+C. Keeps environment variables
+D. Saves remote state
+
+⸻
+
+🔹8️⃣ Which Terraform feature enables using code modules across projects?
+
+A. Providers
+B. Modules
+C. Resources
+D. Variables
+
+⸻
+
+🔹9️⃣ What is the default backend used by Terraform?
+
+A. AWS S3
+B. Local
+C. GCP Storage
+D. Azure Blob
+
+⸻
+
+🔹🔟 What is the command to validate Terraform configuration files?
+
+A. terraform check
+B. terraform validate
+C. terraform lint
+D. terraform verify
+
+⸻
+
+✅ Answers:
+
+1️⃣ B. Infrastructure Provisioning
+2️⃣ C. HCL (HashiCorp Configuration Language)
+3️⃣ B. terraform init
+4️⃣ C. terraform.tfstate
+5️⃣ C. terraform plan
+6️⃣ B. terraform destroy
+7️⃣ A. Locks provider versions
+8️⃣ B. Modules
+9️⃣ B. Local
+🔟 B. terraform validate
+
+https://developer.hashicorp.com/terraform
