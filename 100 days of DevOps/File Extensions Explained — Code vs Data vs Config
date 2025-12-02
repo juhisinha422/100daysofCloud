@@ -1,0 +1,53 @@
+File Extensions Explained — Code vs Data vs Config
+
+Ever seen .js, .json, .sh, or .conf and wondered what’s what? Let’s break it down 👇
+
+⸻
+
+🔹 Code (Instructions to Run) 💻
+These tell the computer what to do.
+	•	📘 .java → Java program (HelloWorld.java)
+	•	🐍 .py → Python script (script.py)
+	•	🖥️ .sh → Shell/Bash script (backup.sh)
+	•	⚡ .js → JavaScript file (app.js)
+
+👉 Purpose: Run instructions on a computer.
+
+⸻
+
+🔹 Data (Information to Use) 📊
+These store information that code can read.
+	•	📑 .json → Data format file (data.json)
+	•	📈 .csv → Rows/columns data (employees.csv)
+	•	🗄️ .sql → Database queries (create_table.sql)
+
+👉 Purpose: Carry data, not logic.
+
+⸻
+
+🔹 Configuration (Settings for Technology) ⚙️
+These define how systems or apps behave.
+	•	📝 .conf → Linux config (nginx.conf)
+	•	📦 .yml / .yaml → DevOps configs (docker-compose.yml)
+	•	🌍 .env → Environment variables (.env)
+	•	⚙️ .ini → App settings (settings.ini)
+
+👉 Purpose: Tell technology how to run.
+
+⸻
+
+🔑 Difference in Simple Words
+	•	🛠️ Instructions (Code/Scripts): “Do this!”
+	•	📊 Data (Info): “Here’s the information you need.”
+	•	⚙️ Config (Settings): “This is how you should behave.”
+	•	💻 Device/Technology: The platform where it all runs (Laptop, Server, Cloud).
+
+
+🚀 Ever confused between .js, .json, .sh, or .conf?
+Think of it this way:
+💻 Code = instructions → “Do this!”
+📊 Data = information → “Here’s the details!”
+⚙️ Config = settings → “This is how to behave!”
+
+All running on a 💻 device/technology (server, cloud, laptop).
+Clear files = smooth deployments. ✅
