@@ -1,0 +1,91 @@
+100 Days of DevOps  — Day 16 (16/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+
+
+1️⃣ What is Terraform State (terraform.tfstate)?
+
+Terraform state stores the current real-world infrastructure details so Terraform understands what already exists and what needs to change.
+
+⸻
+
+2️⃣ What is Terraform .tf File?
+
+.tf files contain the desired infrastructure configuration written in HCL — including resources, providers, variables, and modules.
+
+⸻
+
+3️⃣ What is the Difference Between Encoded and Encrypted?
+	•	Encoding → Converts data into a readable/transferable format (Base64).
+	•	Encryption → Secures data using keys so only authorized users can decrypt it.
+
+⸻
+
+4️⃣ What is a Service in Kubernetes & Its Types?
+
+A Service gives a stable network endpoint to access Pods.
+Types:
+	•	ClusterIP – Internal access
+	•	NodePort – Exposes on node IP:port
+	•	LoadBalancer – External access via cloud LB
+
+⸻
+
+5️⃣ What Are Replicas in Kubernetes?
+
+Replicas define how many identical Pod copies must run to ensure availability and load distribution.
+
+⸻
+
+6️⃣ What Is a Deployment in Kubernetes?
+
+Deployment manages the desired state of Pods, handling rollouts, rollbacks, and scaling.
+
+⸻
+
+7️⃣ What Is a Rolling Update?
+
+A rolling update replaces old Pods with new ones gradually, ensuring zero-downtime deployment.
+
+⸻
+
+8️⃣ Difference Between Variables and Locals in Terraform
+	•	Variables → External inputs (user/environment).
+	•	Locals → Internal computed values for clean code.
+
+⸻
+
+9️⃣ What Is a Dynamic Block / Loop in Terraform?
+
+Dynamic blocks create repeated nested blocks using loops — used for tags, security group rules, IAM policies, etc.
+
+⸻
+
+🔟 What Are Provisioners in Terraform?
+
+Provisioners execute commands or scripts (local-exec/remote-exec) on resources after creation. Used only when no native Terraform option exists.
+==============
+
+
+1.	Terraform state = Terraform’s memory of real resources.
+
+2.	.tf file = Blueprint of desired infrastructure.
+
+3.	Encoding = format change; Encryption = secure protection.
+	
+4.	Service = stable networking with ClusterIP, NodePort, LoadBalancer.
+	
+5.	Replicas = number of Pod copies.
+	
+6.	Deployment = controller that manages Pods.
+	
+7.	Rolling update = zero-downtime updates.
+	
+
+8.	Variables = inputs; Locals = internal logic.
+	
+9.	Dynamic block = loop inside resource for repeated blocks.
+	
+10.	Provisioners = run commands on        resources.
