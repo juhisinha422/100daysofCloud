@@ -1,0 +1,120 @@
+🌊 Autoscaling vs Elastic Load Balancer – Explained with a Dam Analogy 💡
+
+Imagine a dam that supplies water to a city 💧
+	•	Elastic Load Balancer (ELB) is like the main gate of the dam.
+It distributes water evenly through different channels so that no single pipe bursts from too much pressure.
+➤ In tech terms, ELB distributes incoming traffic to multiple servers to keep everything stable.
+	•	Autoscaling is like the smart system that opens more gates when the city’s water demand increases — and closes them when demand goes down.
+➤ In tech terms, Autoscaling automatically adds or removes servers based on traffic load.
+
+Together, they make sure the system never overflows or runs dry — maintaining balance, performance, and reliability ⚙️
+
+🚀 Day 11/100 – DevOps 100 Days Challenge
+
+Topic: Autoscaling & Elastic Load Balancer (ALB)
+
+Let’s test your fundamentals 👇
+
+⸻
+
+🧠 MCQ 
+
+1️⃣ What is the main purpose of an Elastic Load Balancer (ALB)?
+A) To store data
+B) To distribute incoming traffic evenly across servers
+C) To monitor application logs
+D) To perform database backups
+
+⸻
+
+2️⃣ Which AWS service works closely with Autoscaling to maintain performance?
+A) CloudFront
+B) Route 53
+C) Elastic Load Balancer
+D) Lambda
+
+⸻
+
+3️⃣ Autoscaling helps in:
+A) Manually increasing EC2 instances
+B) Automatically adjusting the number of instances based on demand
+C) Increasing EBS volume size
+D) Monitoring billing
+
+⸻
+
+4️⃣ What metric commonly triggers Autoscaling actions?
+A) S3 bucket size
+B) CPU utilization
+C) Disk type
+D) Instance ID
+
+⸻
+
+5️⃣ Application Load Balancer works at which OSI layer?
+A) Layer 3
+B) Layer 4
+C) Layer 7
+D) Layer 2
+
+⸻
+
+6️⃣ Which type of Load Balancer supports path-based routing (e.g., /api vs /images)?
+A) Classic Load Balancer
+B) Network Load Balancer
+C) Application Load Balancer
+D) Gateway Load Balancer
+
+⸻
+
+7️⃣ Autoscaling group requires which components?
+A) Launch template or configuration
+B) S3 bucket
+C) Route table
+D) IAM role only
+
+⸻
+
+8️⃣ What happens when traffic suddenly increases beyond current capacity?
+A) System crashes
+B) Autoscaling adds more instances
+C) Load Balancer stops routing
+D) Instances reboot automatically
+
+⸻
+
+9️⃣ Health checks in ALB are used to:
+A) Verify instance performance
+B) Monitor server health and remove unhealthy instances from routing
+C) Create backups
+D) Measure latency
+
+⸻
+
+🔟 When demand decreases, Autoscaling will:
+A) Add more servers
+B) Terminate unnecessary instances
+C) Reboot all servers
+D) Stop the Load Balancer
+
+⸻
+
+👇 Answers (for self-check)
+
+1️⃣ B
+2️⃣ C
+3️⃣ B
+4️⃣ B
+5️⃣ C
+6️⃣ C
+7️⃣ A
+8️⃣ B
+9️⃣ B
+🔟 B
+
+⸻
+
+💬 Tip:
+Autoscaling = adjusts capacity 🚀
+Load Balancer = distributes load ⚖️
+Together = high availability & performance ✅
