@@ -1,0 +1,77 @@
+100 Days of DevOps  — Day 15 (15/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+
+1️⃣ What is Kubernetes (K8s)?
+Kubernetes is a container orchestration platform used to run, scale, and manage applications.
+It automates deployments, networking, load balancing, and health monitoring.
+
+2️⃣ What is a Pod?
+A Pod is the smallest deployable unit in Kubernetes.
+It runs one or more containers with shared network and storage.
+
+3️⃣ What is a Spec in Kubernetes?
+spec is the part of a YAML file that defines the desired state of an object.
+It includes containers, images, volumes, ports, replicas, and resource limits.
+
+4️⃣ What are Labels in Kubernetes?
+Labels are key-value pairs used for grouping, filtering, and selecting Kubernetes objects.
+Services and Deployments use labels to find the right Pods.
+
+5️⃣ What are Annotations in Kubernetes?
+Annotations store non-searchable metadata about an object.
+They are used for documentation, automation tools, and tracking information.
+
+6️⃣ What is a Kubernetes Service?
+A Service exposes Pods using a stable IP or DNS to allow communication.
+Types include ClusterIP, NodePort, LoadBalancer, ExternalName, and Headless.
+
+7️⃣ What is Resource Utilization?
+Resource utilization means how much CPU, Memory, and storage a Pod/container consumes.
+You manage it using resource limits, requests, HPA, and autoscaling.
+
+8️⃣ What is Terraform?
+Terraform is an Infrastructure as Code tool used to build, manage, and automate cloud resources.
+It uses configuration files to create consistent and repeatable infrastructure.
+
+9️⃣ What is terraform.tfstate?
+terraform.tfstate stores Terraform’s real-time record of deployed resources.
+It helps Terraform understand what exists and what needs to be updated.
+
+🔟 What is Access Control in Kubernetes?
+Kubernetes access is managed using RBAC (Role-Based Access Control).
+In cloud platforms like AWS, IAM roles work together with RBAC for secure access.
+===============
+
+
+1️⃣ Kubernetes = Container Orchestration
+Manages Pods, scaling, networking.
+
+2️⃣ Pod = Smallest Unit
+Runs one or more containers.
+
+3️⃣ Spec = Desired State
+Tells Kubernetes what to create.
+
+4️⃣ Labels = Filters
+Used for selection & grouping.
+
+5️⃣ Annotations = Extra Info
+Metadata not used for selection.
+
+6️⃣ K8s Resources = Objects
+Pods, Deployments, Services, ConfigMaps, etc.
+
+7️⃣ Service = Stable Access
+ClusterIP, NodePort, LoadBalancer.
+
+8️⃣ Resource Utilization = CPU/MEM
+Managed using limits, requests, autoscaling.
+
+9️⃣ Terraform.tfstate = Actual State
+Terraform checks real vs desired infra.
+
+🔟 AWS Access in K8s = IAM + RBAC
+AWS controls access using IAM; Kubernetes uses RBAC.
