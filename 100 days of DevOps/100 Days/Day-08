@@ -1,0 +1,101 @@
+100 Days of DevOps Quiz — Day 8 (8/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+Let’s start the journey! 🚀
+Try these 10 multiple-choice questions 👇 (don’t scroll too fast 😉).
+
+
+1️⃣ When using Ansible Vault, which command edits an already encrypted file? 🔐
+A) ansible-vault rekey
+B) ansible-vault decrypt
+C) ansible-vault edit
+D) ansible-vault change
+
+⸻
+
+2️⃣ Which lookup plugin allows fetching data dynamically from environment variables? 🌍
+A) vars
+B) env
+C) lookup_env
+D) context
+
+⸻
+
+3️⃣ In Ansible, what is the use of delegate_to keyword? 🔄
+A) To assign variables to another host
+B) To run a task on a different host than the one in inventory
+C) To assign roles
+D) To copy files between nodes
+
+⸻
+
+4️⃣ Which Ansible strategy runs tasks on all hosts in parallel? ⚡
+A) linear
+B) free
+C) serial
+D) batch
+
+⸻
+
+5️⃣ What is the default parallelism (forks) in Ansible execution? 🧠
+A) 2
+B) 5
+C) 10
+D) 20
+
+⸻
+
+6️⃣ Which command lists all the inventory hosts and groups? 📜
+A) ansible-inventory --list
+B) ansible-inventory --show
+C) ansible --list-hosts
+D) ansible-playbook --inventory
+
+⸻
+
+7️⃣ What is the purpose of run_once: true in a playbook? 🧩
+A) To run the play only on one host
+B) To execute the task only once, even with multiple hosts
+C) To skip the host
+D) To retry failed hosts only once
+
+⸻
+
+8️⃣ Which Ansible feature enables dynamic infrastructure scaling in AWS or Azure? ☁️
+A) Dynamic Inventory
+B) Cloud Role
+C) Scaling Module
+D) Infra Lookup
+
+⸻
+
+9️⃣ What is the difference between include_tasks and import_tasks? 🧾
+A) import_tasks is dynamic; include_tasks is static
+B) import_tasks is static; include_tasks is dynamic
+C) Both are identical
+D) One is deprecated
+
+⸻
+
+🔟 What happens if a handler fails in Ansible? 🚨
+A) It skips remaining tasks
+B) It retries 3 times
+C) It stops the playbook immediately
+D) It continues but marks the play as failed
+
+⸻
+
+🧠 Answers (Don’t peek early 😎)
+
+1️⃣ C) ansible-vault edit
+2️⃣ B) env
+3️⃣ B) To run a task on a different host than the one in inventory
+4️⃣ B) freeb
+5️⃣ B) 5
+6️⃣ A) ansible-inventory --list
+7️⃣ B) To execute the task only once, even with multiple hosts
+8️⃣ A) Dynamic Inventory
+9️⃣ B) import_tasks is static; include_tasks is dynamic
+🔟 C) It stops the playbook immediately
