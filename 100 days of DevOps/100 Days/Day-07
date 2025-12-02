@@ -1,0 +1,95 @@
+Day 7/100 — Toughest Ansible Interview Questions ⚙️🔥
+
+1️⃣ 🤔 What makes Ansible agentless?
+A) It uses SSH for communication only 🔐
+B) It installs agents on nodes 🧍♂️
+C) It depends on Docker 🐳
+D) It uses REST APIs only 🌐
+
+⸻
+
+2️⃣ 📘 What is the default location of the Ansible configuration file?
+A) /etc/ansible/ansible.cfg ⚙️
+B) ~/ansible.cfg
+C) /usr/local/etc/ansible.cfg
+D) /home/ansible/config.yaml
+
+⸻
+
+3️⃣ 🧾 In a playbook, what does hosts: all mean?
+A) Run only on localhost 🖥️
+B) Run on every host defined in the inventory 🌍
+C) Run on one random host 🎲
+D) Run on the control node only 💻
+
+⸻
+
+4️⃣ ⚙️ What is the difference between roles and tasks?
+A) Roles are a collection of tasks, variables, and handlers 🧩
+B) Tasks are for UI automation only 💬
+C) Roles and tasks are same 🔁
+D) None of the above 🚫
+
+⸻
+
+5️⃣ 🧠 Which command checks syntax errors in a playbook before running it?
+A) ansible-playbook –check ✅
+B) ansible-lint
+C) ansible-playbook –syntax-check 🧾
+D) ansible-verify
+
+⸻
+
+6️⃣ 🔀 What’s the difference between copy and template modules?
+A) Both are same 🔁
+B) template allows Jinja2 variables, copy doesn’t 🧠
+C) copy supports YAML, template doesn’t 📄
+D) template works only on Windows 💻
+
+⸻
+
+7️⃣ 😈 Twisted Question: If you run a playbook with wrong indentation in YAML, what happens?
+A) It runs partially ✅
+B) It throws a syntax error 🚫
+C) It skips that task ⚠️
+D) It still runs normally 🤷♂️
+
+⸻
+
+8️⃣ 🔥 Why does Ansible use YAML instead of JSON for playbooks?
+A) YAML is easier to read and supports comments 🧾💬
+B) JSON runs faster ⚡
+C) YAML is older
+D) JSON is not supported in Linux
+
+⸻
+
+9️⃣ 🐍 Is Ansible written in Python or YAML?
+A) Python (core) 🐍
+B) YAML (front-end only) 📘
+C) Both
+D) None
+
+⸻
+
+🔟 💡 Trickiest Interview Question:
+Can Ansible pull information from managed nodes before making changes?
+A) No, it only pushes tasks ➡️
+B) Yes, using the “gather_facts” module 📊
+C) Only in check mode 🧩
+D) Requires a plugin
+
+⸻
+
+✅ Answers Below 👇
+
+1️⃣ → A
+2️⃣ → A
+3️⃣ → B
+4️⃣ → A
+5️⃣ → C
+6️⃣ → B
+7️⃣ → B
+8️⃣ → A
+9️⃣ → A
+🔟 → B
