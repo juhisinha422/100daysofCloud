@@ -1,0 +1,14 @@
+Ever wondered how servers and operating systems work together? Let’s understand it with Maggi! 🍜
+
+	•	OS (Red Hat / Ubuntu / CentOS) = The Kitchen 🏠
+Provides the environment, stove, and utensils to cook.
+
+	•	Web Server (Nginx / Apache) = The Chef 👨🍳
+Prepares and serves the food (handles user requests).
+
+	•	Website / App = The Maggi 🍜
+The final dish delivered to the customer (end user).
+
+👉 Without a kitchen (OS), no cooking is possible.
+👉 Without a chef (Web Server), the kitchen stays empty.
+👉 And without Maggi (Website/App), the customer leaves hungry! 😋
