@@ -1,0 +1,93 @@
+100 Days of DevOps  — Day 18 (18/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+
+=======
+
+1) What is EBS?
+
+EBS (Elastic Block Store) is AWS block-level storage used for EC2 instances that behaves like a virtual hard disk. It provides persistent storage even after EC2 stops.
+
+⸻
+
+2) What is IAM?
+
+IAM (Identity and Access Management) is the AWS service that controls user access and permissions for all AWS resources.
+
+⸻
+
+3) What is Reclaiming Policy in Kubernetes?
+
+
+A reclaim policy defines what happens to the PV (PersistentVolume) when its PVC (PersistentVolumeClaim) is deleted.
+
+⸻
+
+4) What is the Retain Reclaim Policy?
+
+Answer:
+Retain keeps the actual storage disk even after the PVC is deleted; manual cleanup is required.
+
+⸻
+
+5) What is the Recycle Reclaim Policy?
+
+Answer:
+Recycle wipes the data (basic scrub) and makes the PV available again. (Note: Deprecated)
+
+⸻
+
+6) What is the Delete Reclaim Policy?
+
+Answer:
+Delete removes the PV and the underlying storage (EBS/EFS) automatically.
+
+⸻
+
+7) What is a Node Selector in Kubernetes?
+
+A node selector is the simplest way to schedule a pod onto a specific node based on matching labels.
+
+⸻
+
+8) What is a StorageClass?
+
+A StorageClass defines how dynamic storage should be provisioned automatically, such as EBS, EFS, or SSD types.
+
+⸻
+
+9) What is EFS?
+
+EFS (Elastic File System) is a scalable, shared file system that multiple EC2 instances or pods can access at the same time.
+
+⸻
+
+10) What is the difference between EBS and EFS?
+
+•	EBS: Block storage, attached to one EC2 at a time, high performance but not shared.
+
+•	EFS: Shared file storage, can attach to many EC2s/pods at once, auto-scales.
+
+=============
+
+1.	EBS: Block storage for one EC2 instance.
+	
+2.	IAM: Permission and access control service in AWS.
+	
+3.	Reclaim Policy: Defines what happens to PV after PVC deletion.
+	
+4.	Retain: Keeps the disk for manual cleanup.
+	
+5.	Recycle: Cleans and reuses the PV.
+	
+6.	Delete: Deletes PV and its backend storage automatically.
+	
+7.	Node Selector: Schedules pods to nodes using labels.
+	
+8.	StorageClass: Handles dynamic provisioning of storage.
+	
+9.	EFS: Shared file system accessible by multiple instances.
+	
+10.	EBS vs EFS: EBS = single-attach block storage; EFS = multi-attach shared storage.
