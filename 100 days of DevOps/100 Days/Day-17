@@ -1,0 +1,93 @@
+1️⃣ How do you configure ports in Kubernetes?
+
+You configure ports using containerPort, hostPort, and nodePort inside Pod or Service YAML.
+containerPort is internal to the container, while nodePort exposes externally through the cluster node.
+
+⸻
+
+2️⃣ How can you manage ports in Kubernetes?
+
+Ports are managed through Services like ClusterIP, NodePort, and LoadBalancer.
+NetworkPolicies control traffic rules, and Ingress manages HTTP/HTTPS routing.
+
+⸻
+
+3️⃣ When a container runs as a non-root user, how do you manage ports?
+
+Non-root containers cannot bind to ports <1024, so you run apps on high ports like 8080/3000.
+Use Kubernetes Service to expose the high port to users without needing root privileges.
+
+⸻
+
+4️⃣ What are the pillars of Kubernetes storage & networking?
+
+Pillars include Compute (Pods), Networking (Services/Ingress), Storage (PV/PVC), and Configuration (ConfigMaps/Secrets).
+They ensure apps run portably, scalable, and with predictable networking & data behavior.
+
+⸻
+
+5️⃣ What is EBS? Where & why do we use it?
+
+Answer (2 lines):
+AWS EBS is a block storage device attached to EC2/K8 worker nodes.
+Used for single-node, low-latency storage like databases or applications needing durable block volumes.
+
+⸻
+
+6️⃣ What is EFS? Where & why do we use it?
+
+AWS EFS is a scalable NFS shared file system accessible by multiple nodes.
+Used when Pods need shared storage, multi-AZ access, or auto-scaling file storage.
+
+⸻
+
+7️⃣ What is static vs dynamic provisioning in Kubernetes storage?
+
+Static provisioning means admin pre-creates PVs manually.
+Dynamic provisioning automatically creates storage using StorageClass when PVC is requested.
+
+⸻
+
+8️⃣ What is PVC & PV in Kubernetes (wrap object)?
+
+PV (PersistentVolume) is actual storage; PVC (PersistentVolumeClaim) is the request for storage.
+PVC acts like a “wrap object” that binds to the right PV based on size & access mode.
+
+⸻
+
+9️⃣ How does Kubernetes ensure storage persists when pods restart?
+
+Pods use PVCs attached to PVs, so data remains even if pods crash or recreate.
+Storage lifecycle is independent of the Pod lifecycle.
+
+⸻
+
+🔟 What storage types are ephemeral vs persistent in Kubernetes?
+
+
+emptyDir, configMap, and secret volumes are ephemeral—deleted with the Pod.
+PV/PVC, EBS, EFS, Ceph, NFS volumes are persistent across Pod restarts.
+
+
+=========
+
+
+1.	Port Configuration = containerPort /  hostPort / nodePort basics.
+	
+2.	Port Management = Services + Ingress routing.
+	
+3.	Non-Root Ports = use high ports (8080) safely.
+	
+4.	Storage Pillars = Compute, Network, Storage foundation.
+	
+5.	EBS = single-node block storage durability.
+	
+6.	EFS = multi-node shared storage scalability.   
+	
+7.	Static Provisioning = manually created PV resources.
+	
+8.	Dynamic Provisioning = automatic PV via StorageClass.
+	
+9.	PV & PVC = storage + claim binding mechanism.
+	
+10.	Ephemeral vs Persistent = temporary vs durable data.
