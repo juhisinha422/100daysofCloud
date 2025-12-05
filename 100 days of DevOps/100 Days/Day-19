@@ -1,0 +1,64 @@
+100 Days of DevOps — Day 19 (19/100)
+=================
+
+1️⃣ What is Peer Discovery in Kubernetes?
+
+Peer discovery is the mechanism by which pods automatically find and communicate with each other inside the cluster.
+
+2️⃣ What is a Headless Service?
+
+A headless service (clusterIP: None) bypasses load-balancing and returns the IPs of individual pods via DNS.
+
+3️⃣ What is a StatefulSet?
+
+A StatefulSet is used for stateful applications and gives each pod a stable name, stable identity, and persistent storage.
+
+4️⃣ What is a Deployment?
+
+A Deployment is used for stateless applications and manages replica sets, scaling, rolling updates, and rollbacks.
+
+5️⃣ What is K9s in Kubernetes?
+
+K9s is a terminal-based UI tool that allows you to view and manage Kubernetes resources interactively.
+
+6️⃣ What is a CronJob?
+
+A CronJob allows you to run Jobs on a fixed schedule, similar to Linux cron timing.
+
+7️⃣ What is a Job in Kubernetes?
+
+A Job runs a task until completion, ensuring the workload succeeds at least once.
+
+8️⃣ What is a Scheduler in Kubernetes?
+
+The Scheduler decides which node should run each pod based on resource requirements and constraints.
+
+9️⃣ What is the difference between Deployment and StatefulSet?
+
+Deployments handle stateless apps with identical pods; StatefulSets handle stateful apps with unique pod identities and storage.
+
+🔟 What is a ReplicaSet?
+
+A ReplicaSet ensures a defined number of identical pod replicas are always running.
+
+===============
+
+1. Peer discovery = pods automatically finding each other.
+ 
+2. Headless service = service without ClusterIP that exposes pod IPs.
+ 
+3. StatefulSet = stable identity + stable storage for each pod.
+ 
+4. Deployment = best for stateless apps.
+ 
+5. K9s = terminal UI for fast Kubernetes management.
+ 
+6. CronJob = scheduled job execution.
+ 
+7. Job = run-to-completion workload.
+ 
+8. Scheduler = decides which node runs a pod.
+ 
+9. Deployment vs StatefulSet = stateless vs stateful.
+ 
+10. ReplicaSet = keeps required pod replicas running.
