@@ -1,0 +1,99 @@
+100 Days of DevOps — Day 20(20/100)
+
+1️⃣ What is OOMKilled?
+
+A container is OOMKilled when it exceeds its memory limit.
+The OS kills it to protect the node.
+
+OOMKilled means Out Of Memory Killed.
+
+⸻
+
+2️⃣ What is the Kubernetes Scheduler?
+
+The Scheduler decides which node a pod runs on.
+It checks resource availability and scheduling rules.
+
+⸻
+
+3️⃣ What is a Node Selector?
+
+Node Selector binds a pod to nodes using labels.
+It’s the simplest scheduling constraint in Kubernetes.
+
+⸻
+
+4️⃣ What is a Taint?
+
+A taint prevents pods from landing on a node.
+Only pods with matching tolerations can run there.
+
+⸻
+
+5️⃣ What is a Toleration?
+
+Tolerations allow pods to run on tainted nodes.
+They don’t force scheduling but remove the block.
+
+⸻
+
+6️⃣ What is NoSchedule?
+
+NoSchedule prevents pods from being scheduled on the node.
+Only pods with matching tolerations can still run there.
+
+⸻
+
+7️⃣ What is NoExecute?
+
+NoExecute blocks new pods and evicts existing ones.
+Pods must have tolerations to stay or be scheduled.
+
+⸻
+
+8️⃣ What is PreferNoSchedule?
+
+PreferNoSchedule is a soft block — scheduler tries to avoid the node.
+Pods may still run if no better node is available.
+
+⸻
+
+9️⃣ What is Affinity?
+
+Affinity sets rules to place pods on certain nodes.
+It controls pod placement using required/preferred conditions.
+
+⸻
+
+🔟 What is Anti-Affinity?
+
+Anti-affinity ensures pods do NOT run together on the same node.
+It helps with high availability and spreading workloads.
+
+🔥 Helm Concepts (Extra Revision Today)
+
+🔸 Helm: Kubernetes package manager
+🔸 Template: Dynamic YAML with placeholders ({{ }})
+🔸 values.yaml: Central config file used to populate templates
+
+What is values.yaml?
+
+values.yaml holds the configuration values that fill into templates and make deployments reusable.
+
+
+=============
+1. OOMKilled = memory limit crossed.
+
+1. Scheduler = selects best node.
+2. Node Selector = match labels.
+3. Taint = block pods.
+4. Toleration = allow on tainted nodes.
+5. NoSchedule = block scheduling.
+6. NoExecute = block + evict.
+7. PreferNoSchedule = soft avoid.
+8. Affinity = group pods.
+9. Anti-Affinity = spread pod
+
+10. Helm = app packaging.
+11. Template = dynamic YAML.
+ • values.yaml = config input.
