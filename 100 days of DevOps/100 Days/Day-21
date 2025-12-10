@@ -1,0 +1,93 @@
+100 Days of DevOps  — Day 21 (21/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+
+===========
+
+
+1️⃣ What are .tfvars files in Terraform?
+
+.tfvars files store variable values separately from the main Terraform configuration, allowing cleaner and reusable setups.
+They help manage multiple environments like dev, test, and prod by providing different variable files.
+
+⸻
+
+2️⃣ When should you use a .auto.tfvars file?
+
+Terraform automatically loads any file ending with .auto.tfvars without specifying it during execution.
+This is useful when you want default variable sets to always apply for that environment.
+
+⸻
+
+3️⃣ What is a Terraform Workspace?
+
+A Workspace allows you to manage multiple state files inside the same Terraform configuration.
+It helps you separate environments like dev/stage/prod without duplicating code.
+
+⸻
+
+4️⃣ When do you use Workspace vs tfvars?
+
+Workspaces separate state, while tfvars separate values.
+Use Workspaces for environment isolation and tfvars for environment configuration.
+
+⸻
+
+5️⃣ What is a Repository in DevOps?
+
+A repository is a storage location for your code, configurations, and version history.
+It helps collaboration, tracking changes, and maintaining project integrity.
+
+⸻
+
+6️⃣ What is RBAC in Kubernetes?
+
+
+Role-Based Access Control manages permissions in Kubernetes based on roles and bindings.
+It ensures users, groups, and service accounts have only the required access.
+
+⸻
+
+7️⃣ What is the difference between Role and ClusterRole in Kubernetes RBAC?
+
+
+A Role gives permissions within a specific namespace.
+A ClusterRole gives permissions across the entire cluster.
+
+⸻
+
+8️⃣ What is the difference between RoleBinding and ClusterRoleBinding?
+
+
+RoleBinding connects a Role to users or service accounts within a namespace.
+ClusterRoleBinding connects a ClusterRole to users cluster-wide.
+
+⸻
+
+9️⃣ What is Kubernetes Administration?
+
+Kubernetes administration includes cluster setup, node management, networking, storage, monitoring, and security controls.
+Admins ensure clusters are scalable, secure, and always running.
+
+⸻
+
+🔟 What is the purpose of kubeconfig in administration?
+
+The kubeconfig file stores cluster connection details like servers, certificates, and contexts.
+It allows users and tools to authenticate and access Kubernetes clusters safely.
+
+
+==========
+
+1️⃣ tfvars = stores environmental variable values
+2️⃣ auto.tfvars = loads automatically as default variables
+3️⃣ Workspace = separates Terraform state per environment
+4️⃣ Workspace vs tfvars = state separation vs value separation
+5️⃣ Repository = code storage + version control
+6️⃣ RBAC = permission management in Kubernetes
+7️⃣ Role = namespace-level permissions
+8️⃣ ClusterRole = cluster-level permissions
+9️⃣ K8s Admin = manages cluster operations
+🔟 kubeconfig = stores authentication + cluster access details
