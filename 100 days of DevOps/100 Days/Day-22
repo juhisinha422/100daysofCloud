@@ -1,0 +1,66 @@
+100 Days of DevOps — Day 22 
+
+
+========
+1️⃣ What is the difference between Ingress and Ingress Controller?
+Ingress defines rules for routing external traffic into Kubernetes.
+ Ingress Controller is the actual engine (NGINX/Traefik) that enforces those rules.
+2️⃣ Linux authentication failed — where do you check?
+Check logs in /var/log/auth.log (Ubuntu) or /var/log/secure (RHEL/CentOS).
+ They show failed attempts, wrong passwords, and PAM issues.
+
+4️⃣ What are Labels, Selectors & Annotations? (Clear Explanation)
+Labels: Key-value tags used to identify Pods, Nodes, Deployments, etc.
+ Selectors: Used by Services/Deployments to match objects using labels.
+ Annotations: Store extra metadata; not used for filtering or scheduling.
+Where used:
+
+Pods → labels for Service/Deployment matching
+Nodes → labels for scheduling (NodeSelector/NodeAffinity)
+Containers → do not have labels; labels belong to Pod metadata
+
+5️⃣ What is OIDC?
+OIDC = OpenID Connect, an identity layer built on OAuth2.
+ Used for secure authentication like Kubernetes IRSA for AWS IAM roles.
+
+6️⃣ What is a Service Account in Kubernetes?
+A Service Account provides an identity for Pods to access the API server.
+ It avoids putting user passwords or tokens inside containers.
+
+7️⃣ Difference between su and su -
+su switches user but keeps the current environment.
+ su - gives a full login shell with that user’s profile and PATH.
+
+8️⃣ What is sudo password and what is PATH?
+sudo password = your own user password, not root’s.
+ PATH = list of directories where Linux looks for executable commands.
+
+9️⃣ Difference between sudo and su?
+sudo runs a single command with elevated privileges.
+ su switches to the root user entirely and needs the root password.
+
+🔟 Difference between Labels and Selectors (use case)?
+Labels tag objects like Pods (app=frontend).
+ Selectors choose objects based on labels (example: Service selects Pods).
+
+=============
+
+Ingress defines rules; Ingress Controller enforces them.
+
+Check /var/log/auth.log or /var/log/secure for login failures.
+
+Prune removes 30-day-old and dangling Docker images.
+
+Labels identify, selectors match, annotations describe.
+
+OIDC = identity layer for secure authentication.
+
+Service Accounts = identities for Pods to access the API.
+
+su keeps current environment; su - loads full login shell.
+
+sudo uses your user password; PATH decides command locations.
+
+sudo = run one command as root; su = switch to root user.
+
+Labels tag objects; selectors find and match those labels.
