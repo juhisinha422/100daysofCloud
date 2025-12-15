@@ -1,0 +1,85 @@
+100 Days of DevOps  — Day 23 (23/100) 
+
+
+1️⃣ What is a Module in Terraform?
+
+A module is a reusable collection of Terraform resources used to standardize and simplify infrastructure code.
+
+⸻
+
+2️⃣ What is a VPC?
+
+A VPC (Virtual Private Cloud) is a logically isolated virtual network in AWS where we launch resources.
+
+⸻
+
+3️⃣ What is VPC Peering?
+
+VPC Peering allows private communication between two VPCs using private IPs.
+
+⸻
+
+4️⃣ What is a Subnet?
+
+A subnet is a range of IP addresses inside a VPC used to group resources.
+
+⸻
+
+5️⃣ What is a Public Subnet?
+
+A public subnet has a route to an Internet Gateway, allowing internet access.
+
+⸻
+
+6️⃣ What is a Private Subnet?
+
+A private subnet does not have direct internet access and is usually used for databases or backend services.
+
+⸻
+
+7️⃣ Where do we use depends_on in Terraform?
+
+depends_on is used when Terraform cannot automatically detect resource dependencies.
+
+⸻
+
+8️⃣ Where do we use slice() in Terraform?
+
+slice() is used to select a subset of elements from a list, commonly for AZ or subnet selection.
+
+⸻
+
+9️⃣ What is Association in Terraform?
+
+Association links resources together, such as route table association with subnets.
+
+⸻
+
+🔟 Why are Modules important in Terraform?
+
+Modules improve reusability, consistency, and maintainability of infrastructure code.
+
+
+
+===========
+
+
+Module = reusable set of Terraform resources
+
+VPC = logically isolated virtual network in AWS.
+
+VPC Peering = private connectivity between two VPCs.
+
+Subnet = smaller IP range inside a VPC.
+
+Public Subnet = subnet with internet gateway access.
+
+Private Subnet = subnet without direct internet access.
+
+depends_on = enforces resource creation order.
+
+slice() = extracts a portion of a list.
+
+Association = linking one resource to another.
+
+Route Table Association = connects subnet to routing rules. 
