@@ -1,0 +1,101 @@
+100 Days of DevOps — Day 24 (24/100)
+
+
+
+1️⃣ What is Blue-Green Deployment?
+
+Blue-Green deployment is a release strategy where two environments exist: Blue (current live) and Green (new version).
+Traffic is switched from Blue to Green after successful testing.
+This approach enables zero-downtime deployments and quick rollback.
+
+⸻
+
+2️⃣ What is Xero Time?
+
+Xero Time (formerly WorkflowMax Time) is a time-tracking tool integrated with Xero accounting.
+It helps teams log work hours for billing, payroll, and reporting.
+Commonly used by service-based and project-driven organizations.
+
+⸻
+
+3️⃣ Types of Deployment Used with Xero Time
+
+Xero Time typically supports Rolling Deployment for gradual updates.
+Blue-Green deployment is used to avoid service disruption.
+Canary deployment is used to test features with limited users first.
+
+⸻
+
+4️⃣ What is a Cordon Node in Kubernetes?
+
+Cordon marks a node as unschedulable.
+New pods will not be placed on the node, but existing pods continue running.
+It is mainly used during maintenance or upgrades.
+
+⸻
+
+5️⃣ What Does “Drain the Blue” Mean?
+
+Draining the Blue environment means gracefully stopping traffic and workloads.
+Pods are safely evicted and traffic is redirected to Green.
+This ensures no downtime during Blue-Green switch.
+
+⸻
+
+6️⃣ What is AWS SSM (Systems Manager)?
+
+AWS SSM is a management service for EC2 and on-prem servers.
+It allows remote command execution, patching, and configuration.
+No SSH access is needed, which improves security and automation.
+
+⸻
+
+7️⃣ What is a Data Source in Terraform?
+
+A Terraform data source is used to fetch existing infrastructure data.
+It does not create resources but reads information like AMI IDs or VPCs.
+Helpful when integrating existing cloud resources.
+
+⸻
+
+8️⃣ Difference Between Blue-Green and Rolling Deployment
+
+Blue-Green switches traffic all at once between environments.
+Rolling deployment updates instances one by one.
+Blue-Green allows instant rollback, while rolling reduces resource usage.
+
+⸻
+
+9️⃣ Why is Draining Important Before Node Maintenance?
+
+Draining ensures pods are safely moved to other nodes.
+It prevents application downtime during upgrades.
+Used with cordon to maintain cluster stability.
+
+⸻
+🔟 Where is AWS SSM Commonly Used in DevOps?
+
+SSM is used for automation, patch management, and runbooks.
+It replaces manual SSH operations.
+Widely used in secure, large-scale infrastructure management
+***************
+
+Blue-Green Deployment = zero-downtime traffic switch.
+
+Xero Time = time tracking tool.
+
+Xero Time Deployment Types = rolling, blue-green, canary.
+
+Cordon Node = prevents new pod scheduling.
+
+Drain the Blue = safely removes running workloads.
+
+AWS SSM = manage servers without SSH.
+
+Data Source = reads existing infrastructure.
+
+Blue-Green vs Rolling = instant switch vs gradual update.
+
+Drain Node = moves pods safely.
+
+AWS SSM Use Case = automation and patching.
