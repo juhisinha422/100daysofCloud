@@ -1,0 +1,20 @@
+Linux Directory Tree explained with a Home 🏠 analogy
+Think of the Linux file system like a house:
+
+
+📂 Linux Directory Tree explained with a Home 🏠 analogy
+• / 🌍 → The land / main building (Root)
+• /home 🛏️ → Bedrooms (users’ personal space)
+ • /home/user 🚪 → Your own room
+• /root 👑 → Owner’s private room (Admin)
+• /etc 📘 → House rules & manuals (configuration files)
+• /bin 🧰 → Daily-use tools (basic commands)
+• /sbin 🛠️ → Maintenance tools (admin commands)
+• /usr 🏢 → Shared rooms & furniture (applications & libraries)
+• /var 🗑️ → Dustbin / diary (logs & changing data)
+• /tmp 🧳 → Visitor room (temporary files)
+• /dev 🔌 → Switches & appliances (devices)
+• /proc 📊 → Live status board (running processes)
+• /boot 🔑 → Main door key (kernel & bootloader)
+• /lib 🧩 → Support staff (shared libraries)
+• /mnt, /media 🧭 → Guest rooms (mounted drives)
