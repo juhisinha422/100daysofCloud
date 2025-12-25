@@ -1,0 +1,48 @@
+100 Days of DevOps  — Day 27(27/100)
+
+
+1️⃣ What is Git Merge?
+👉 Git Merge combines changes from one branch into another and keeps full commit history.
+
+2️⃣ What is Git Rebase?
+👉 Git Rebase moves commits to a new base branch to create a clean, linear history.
+
+3️⃣ What is Git Reset?
+👉 Git Reset moves HEAD to a previous commit and can modify commit history.
+
+4️⃣ What is Git Reset –soft?
+👉 Soft reset removes commits but keeps changes staged.
+
+5️⃣ What is Git Reset –mixed?
+👉 Mixed reset removes commits and unstages changes but keeps files.
+
+6️⃣ What is Git Reset –hard?
+👉 Hard reset removes commits and deletes all local changes.
+
+7️⃣ What is Git Revert?
+👉 Git Revert creates a new commit that undoes previous changes safely.
+
+8️⃣ What is Git Squash?
+👉 Git Squash combines multiple commits into a single commit.
+
+9️⃣ What is Git Stash?
+👉 Git Stash temporarily saves uncommitted changes.
+
+🔟 What is Git Cherry-Pick?
+👉 Git Cherry-Pick applies a specific commit from another branch.
+
+	•	Git Merge = combine branches
+	•	Git Rebase = clean linear history
+	•	Git Reset = move HEAD back
+	•	Soft Reset = commits removed, changes staged
+	•	Mixed Reset = commits removed, changes unstaged
+	•	Hard Reset = commits + changes deleted
+	•	Git Revert = safe undo with new commit
+	•	Git Squash = many commits → one
+	•	Git Stash = temporary save
+	•	Git Cherry-Pick = copy specific commit
+	•	Git Tag = mark release/version
+
+
+
+“Merge joins, Rebase realigns, Reset goes back, Revert undoes safely, Soft saves stage, Mixed keeps files, Hard wipes all, Squash makes one, Stash hides work, Cherry-pick picks one, Tag marks release.”
