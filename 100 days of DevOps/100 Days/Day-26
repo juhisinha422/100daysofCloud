@@ -1,0 +1,70 @@
+100 Days of DevOps  — Day 26(26/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent 
+
+To be honest, These command analogies are really helpful to me. It’s a lot to memorize, but if you find it useful, great; if not, feel free to ignore
+ 
+
+Search & Text Processing =Phone-Flow Recall
+==============================
+
+find /logs -name "*.log" | grep "ERROR" | awk '{print $1,$3}' | sed 's/old/new/g' | sort | uniq | wc -l
+
+Find file → Search word → Pick fields → Edit text → Sort → Remove duplicates → Count
+
+ User Management — ONE-LINE MEMORY FLOW
+================================
+
+whoami → id → useradd → usermod → passwd → groupadd
+Who am I → Show ID → Hire → Update → Lock/Unlock → Create team
+
+passwd — ONE DOOR STORY 
+===================
+
+passwd user → passwd -d → passwd -l → passwd -u → passwd -e
+Add lock → Remove lock → Lock door → Unlock door → Force new lock
+
+Process Management 
+==============
+
+ps → top → htop → kill → kill -9 → bg → fg → jobs
+See workers → Watch live → Advanced view → Ask to stop → Throw out → Send aside → Bring back → Check tasks
+
+Disk & Memory
+==========
+
+df -h → du -sh → free -m → lsblk → mount → umount
+Check phone → Check folder → Check RAM → See drives → Plug SD → Unplug SD
+
+df -h  → Check total disk/phone storage
+du -sh  → Check size of a specific folder or app
+free -m → Check remaining RAM
+lsblk  → List all storage devices (internal + external)
+mount  → Attach / mount a storage device
+umount  → Safely detach / unmount a storage device
+
+Networking (Communication)
+====================
+
+IP → Ping → Curl → Wget → SS → Netstat
+Number → Call → Chat → Download → Check calls → Check signal
+
+ip a  → Check my phone number/IP
+ping  → Call friend / test connection
+curl  → Chat with an API/app
+wget  → Download files/media
+ss   → See who is calling (open ports)
+netstat → Check network health/status
+
+DevOps / Interview Must-Know (Command Logic)
+==================================
+
+Pipe → Output flow | > overwrite → >> append | && success → || fail
+
+
+ps aux | grep nginx ------------List all processes → only show nginx
+echo "Hello" > file.txt----------Writes “Hello” into file.txt, replacing old content       
+echo "New line" >> file.txt----Adds “New line” without removing old content
+mkdir test && cd test---------Create directory → go inside only if creation   succeeded
+mkdir test || echo "Directory exists"--Try to create → if fails, show message
