@@ -1,0 +1,67 @@
+100 Days of DevOps  — Day 28(28/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent
+
+
+1️⃣ Why do we use SonarQube?
+SonarQube is used to automatically check code quality.
+ It detects bugs, security issues, and bad coding practices early.
+
+2️⃣ What are Bugs in SonarQube?
+Bugs are coding errors that can cause the application to fail or behave wrongly.
+ Example: null pointer exception, wrong logic, infinite loop.
+3️⃣ What are Vulnerabilities?
+Vulnerabilities are security weaknesses in the code.
+ Attackers can exploit them to access data or damage the system.
+
+4️⃣ What is Code Smell?
+Code smell means poor-quality code that works but is hard to maintain.
+ It increases technical debt and future bugs.
+
+5️⃣ What is Code Duplication?
+Code duplication means same code repeated in multiple places.
+ It makes changes harder and increases the chance of errors.
+
+6️⃣ What is Code Coverage?
+Code coverage shows how much code is tested using automated tests.
+ Higher coverage means better-tested and more reliable code.
+7️⃣ What is Security Rating?
+Security rating shows how secure the application code is.
+ It is graded from A (best) to E (worst).
+
+8️⃣ What is Maintainability Rating?
+Maintainability rating shows how easy the code is to modify or fix.
+ Clean and simple code gets a better rating.
+
+9️⃣ What is Technical Debt?
+Technical debt is extra work needed later due to poor coding now.
+ More debt means more maintenance effort in the future.
+
+🔟 What is Quality Gate?
+Quality Gate is a set of conditions the code must pass.
+ If it fails, build or deployment can be stopped.
+
+
+============================
+
+
+Bugs = Errors in code that cause wrong behavior or crashes
+
+Vulnerabilities = Security weaknesses that attackers can exploit
+
+Code Smell = Poor design that makes code hard to maintain
+
+Code Duplication = Same logic written in multiple places
+
+Code Coverage = Amount of code executed by automated tests
+
+Security Rating = Indicator of how secure the application is
+
+Maintainability Rating = Indicator of how easy the code is to modify
+
+Technical Debt = Future effort caused by poor coding decisions
+
+Quality Gate = Conditions that code must meet to be accepted
+
+Static Code Analysis = Code inspection without running the program
