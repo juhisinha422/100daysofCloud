@@ -1,0 +1,37 @@
+100 Days of DevOps — Day 29(29/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent
+
+1.What is SDLC?
+ SDLC is the structured flow from requirements to maintenance for building software.
+2.Where does DevOps fit in SDLC?
+ DevOps connects development and operations through continuous automation and feedback.
+3.How is DevOps different from Waterfall?
+ Waterfall is sequential, while DevOps enables continuous build, test, and deploy.
+4.Why does DevOps focus on what users never see?
+ Because reliability, automation, and monitoring prevent user-facing issues.
+5.What is On-Prem infrastructure?
+ On-prem means owning and managing servers, networks, and data centers yourself.
+6.What is Cloud infrastructure?
+ Cloud provides on-demand infrastructure managed by a provider and paid per use.
+7.Why is cloud better for DevOps?
+ Cloud enables fast scaling, automation, and infrastructure as code.
+8.What is an Operating System?
+ OS manages hardware resources and provides a platform for applications.
+9.What is a Kernel?
+ Kernel is the core of the OS that directly communicates with hardware.
+10.What is an AMI or Machine Image?
+ An image is a reusable template containing OS and preconfigured software.
+
+SDLC = Requirements → Design → Code → Test → Deploy → Maintain
+ Waterfall = Sequential flow
+ Agile = Iterative delivery
+ DevOps = Continuous build, test, deploy, monitor
+ Automation = Primary DevOps responsibility
+On-Prem = Own hardware and data center
+ Cloud = Rent infrastructure on demand
+ Scalability = Scale up or down quickly
+ Pay-as-you-go = Pay only for usage
+Operating System = Resource manager
+ Kernel = Hardware communicator
