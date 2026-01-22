@@ -1,0 +1,66 @@
+100 Days of DevOps — Day 30(30/100)
+
+💭 Small daily habits create big lifetime changes.
+🔥 Stay consistent
+
+1.What is the Golden Image concept?
+ A tested, versioned image used consistently across all environments.
+
+2.How is capacity decided in real projects?
+ Capacity is chosen based on workload metrics, not guesswork.
+
+3.What is auto-scaling?
+ Auto-scaling automatically adds or removes instances based on demand.
+
+4.What is Authentication?
+ Authentication verifies who the user or service is.
+
+5.What is Authorization?
+ Authorization defines what actions an authenticated identity can perform.
+
+6.What are Firewalls and Security Groups?
+ They control allowed and blocked network traffic at different levels.
+
+7.What is Secrets Management?
+ Secure storage and rotation of credentials without hardcoding.
+
+8.Why is Monitoring and Logging important?
+ They provide visibility into system health and failures.
+
+9.What is Immutability in DevOps?
+ Servers are replaced, not modified manually after creation.
+
+10.What is the Shared Responsibility Model?
+ Cloud provider manages infrastructure, DevOps manages OS, apps, and data.
+
+AMI = Server template
+ Golden Image = Standardized tested image
+ Immutability = Replace not modify
+Capacity Planning = Metrics based sizing
+ Auto Scaling = Automatic instance adjustment
+ Load Balancer = Traffic distributor
+Authentication = Who you are
+ Authorization = What you can do
+Firewall = Network gatekeeper
+ Security Group = Resource-level firewall
+Secrets Management = Secure credentials storage
+ Networking = Communication backbone
+Monitoring = System health visibility
+ Logging = Event history
+Environment Separation = Dev / Test / Stage / Prod
+ Configuration Management = Externalized settings
+Change Management = Tracked and reversible changes
+ Cost Awareness = Resource optimization
+Source of Truth = Version control
+ Artifact = Build once output
+Deployment Strategy = Safe release method
+ Stateless = No local data
+ Stateful = Data dependent
+Backup = Data protection
+ Disaster Recovery = System restoration
+Access Lifecycle = Join, change, revoke
+ Shared Responsibility = Provider infra, customer OS & data
+Reliability = Stable system behavior
+ Error Budget = Acceptable failure limit
+
+
