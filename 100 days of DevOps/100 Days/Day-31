@@ -1,0 +1,45 @@
+100 Days of DevOps — Day 31
+
+1.What is swap used for?
+ 👉 Swap extends memory using disk when RAM is full.
+
+2. What is mounting in Linux?
+ 👉 Mounting attaches a filesystem to a directory.
+
+3. How do you check inode usage?
+ 👉 Use df -i to view inode utilization.
+
+4. What is an inode in Linux?
+ 👉 Stores file metadata like permissions, owner, size — not filename or data.
+
+5. Temporary vs permanent mount?
+ 👉 Temporary mounts disappear after reboot; permanent mounts persist via /etc/fstab.
+
+
+6. What is /etc/fstab used for?
+ 👉 Defines filesystems that auto-mount at boot.
+
+7. Block storage vs file storage?
+ 👉 Block = raw disk; File = shared filesystem.
+
+8. What happens when inode usage reaches 100%?
+ 👉 No new files can be created, even if disk space is free.
+
+9. What is LVM?
+ 👉 Logical Volume Manager enables resizing volumes without downtime.
+
+10. How do you extend disk space without downtime?
+ 👉 Extend the LVM logical volume and resize the filesystem online.
+ 
+
+✨ Memory Shortcut
+Swap = Disk extends RAM
+Mount = Attach filesystem
+Check inode = df -i
+Temp mount = Lost after reboot
+/etc/fstab = Auto-mount
+Block = Raw, File = Shared
+Inode full = No new files
+LVM = Resize without downtime
+Extend disk = LVM + resize fs
+Inode = Metadata only
