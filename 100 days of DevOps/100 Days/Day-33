@@ -1,0 +1,68 @@
+100 Days of DevOps — Day 33
+
+
+1. Difference between Resource and Data Source in Terraform
+
+A resource is used to create, update, and delete infrastructure, 
+while a data source is used only to fetch information about existing infrastructure without managing or modifying it.
+
+2. What are Terraform state files?
+
+Terraform state files (terraform.tfstate) store information about the infrastructure Terraform manages, 
+including resource IDs and current configuration, allowing Terraform to track changes.
+
+3. What are the types of state backends?
+
+Terraform state backends are mainly of two types:
+Local backend – stores the state file on the local system
+Remote backend – stores the state file remotely (S3, Azure Blob, GCS, Terraform Cloud)
+
+4. What is state locking?
+
+State locking prevents multiple users from applying changes to the same state file at the same time, avoiding conflicts and infrastructure corruption.
+
+5. How do you inspect Terraform state?
+
+Terraform state can be inspected using commands like:
+terraform state list
+terraform state show <resource>
+terraform show
+
+6. What are variables in Terraform?
+
+Variables in Terraform allow values to be reused and customized, making configurations flexible, reusable, and easier to manage across environments.
+
+7. What are the types of variables in Terraform?
+
+Terraform supports:
+Input variables
+Output variables
+Local variables
+
+8. How do you pass variables in Terraform?
+
+Variables can be passed using:
+terraform.tfvars file
+Command-line flags (-var)
+Environment variables
+Default values in variable definitions
+
+9. What is output in Terraform?
+
+Outputs are used to display important information after infrastructure creation, such as IP addresses, resource IDs, or endpoints, and can also be shared between modules.
+
+10. What is terraform.tfvars?
+
+terraform.tfvars is a file that automatically loads variable values into Terraform without requiring command-line input.
+
+================================
+
+Resources create infrastructure, data sources read existing infrastructure, state tracks it, backends store it, variables customize it, and outputs expose results.
+
+
+ idempotent behavior, and simple HCL syntax, Terraform makes infrastructure automation reliable and scalable.
+Today’s focus:
+• Resources vs Data Sources
+• Terraform state and backends
+• State locking and inspection
+• Variables, tfvars, and outputs
