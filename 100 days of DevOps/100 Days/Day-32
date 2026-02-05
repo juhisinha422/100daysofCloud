@@ -1,0 +1,66 @@
+100 Days of DevOps — Day 32
+
+💭 Small daily habits create big lifetime changes.
+ 🔥 Stay consistent
+
+
+1. What is Terraform and why is it used in DevOps?
+
+Terraform is an open-source Infrastructure as Code (IaC)
+ tool used to build, change, and version infrastructure safely and efficiently. 
+In DevOps, it is used to automate infrastructure provisioning and management across cloud and on-prem environments.
+
+2. What language does Terraform use?
+
+Terraform uses HashiCorp Configuration Language (HCL), a declarative language designed to define infrastructure clearly and human-readably.
+
+3. What is the difference between Terraform and CloudFormation?
+
+Terraform is cloud-agnostic and supports multiple providers (AWS, Azure, GCP, etc.),
+ while CloudFormation is AWS-specific and works only within the AWS ecosystem.
+
+4. What are the main Terraform commands or workflow?
+
+The main Terraform workflow includes:
+terraform init – initializes the working directory
+terraform plan – shows execution plan
+terraform apply – creates or updates infrastructure
+terraform destroy – deletes infrastructure
+
+5. Explain desired state vs actual state.
+
+The desired state is what you define in Terraform configuration files, while the actual state is the real infrastructure running in the environment. 
+Terraform compares both and makes changes to match the desired state.
+
+6. What does idempotent mean in Terraform?
+
+Idempotency means running the same Terraform code multiple times will not change the infrastructure if it already matches the desired state.
+
+7. What are providers in Terraform?
+
+Providers are plugins that allow Terraform to communicate with cloud platforms, SaaS tools, and APIs. 
+They define what resources and data sources Terraform can manage.
+
+8. How do you lock a provider version?
+
+Provider versions can be locked using the required_providers block to ensure consistent and predictable deployments.
+
+9. What are resources in Terraform?
+Resources represent infrastructure components such as EC2 instances, VPCs, subnets, load balancers, and databases that Terraform creates and manages.
+
+10. What are data sources in Terraform?
+
+Data sources allow Terraform to fetch existing information from providers (like AMI IDs or VPC details). 
+They are read-only and do not create resources.
+
+=====================
+Terraform is a cloud, tool using HCL that automates infrastructure through providers, resources, data sources, and an idempotent workflow of init, plan, apply, and destroy.
+
+
+Terraform makes infrastructure predictable, repeatable, and scalable using Infrastructure as Code.
+=======
+
+• Declarative HCL language
+• Idempotent and reliable
+• Providers, resources, and data sources
+• Simple workflow: init → plan → apply → destroy
